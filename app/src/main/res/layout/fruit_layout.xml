@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/fruit_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/fruit_name_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#AA555555"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/fruit_image"
+        app:layout_constraintEnd_toEndOf="@id/fruit_image"
+        app:layout_constraintStart_toStartOf="@id/fruit_image"
+        tools:text="Fruit Name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

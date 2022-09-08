@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8AD6CE8A"
+    tools:context=".FruitDetailsActivity">
+
+    <ImageView
+        android:id="@+id/fruit_image_detail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/fruit_name"
+        android:layout_width="146dp"
+        android:layout_height="23dp"
+        android:textColor="#AA2222"
+        tools:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fruit_image_detail"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <TextView
+        android:id="@+id/nutrtion_label"
+        android:layout_width="336dp"
+        android:textColor="#AA2222"
+        android:layout_height="192dp"
+        tools:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fruit_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerFruitsApp</string>
+    <string name="welcom_label">welcome to fruits app</string>
+</resources>
